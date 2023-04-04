@@ -1,0 +1,30 @@
+name: rs_libras
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0-322.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  youtube_player_flutter: ^8.1.2
+  cupertino_icons: ^1.0.2
+  flux_validator_dart: ^2.0.0
+  sqflite: ^2.2.6
+  shared_preferences: ^2.0.20
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - 'assets/'
+    - 'assets/images/'
+
